@@ -9,9 +9,10 @@ int main()
     // Vérifie si 'a' est divisible par 2 (condition pour être pair)
     if (a % 2 == 0)    
         printf("est pair\n", &a);   // Si vrai, affiche que le nombre est pair
-    else
 
+    else
         printf("est impair\n", &a);   // Sinon, affiche qu'il est impair
 
+        
     return 0;  // Fin du programme
 }
