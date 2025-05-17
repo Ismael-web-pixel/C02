@@ -2,21 +2,20 @@
 
 int main(void)
 {
-    int nombre;
-    int factorial = 1;
+    int nbre, factorial = 1;
 
 
-    scanf("%d", &nombre);
+    scanf("%d", &nbre);
 
-    if (nombre < 0)
+    if (nbre > 0)
     
 
-    for (int i = 1; i <= nombre; i++)
+    for (int i = 1; i <= nbre; i++)
     {
         factorial *= i;
     }
 
-    printf("Le factoriel de %d est : %d\n", nombre, factorial);
+    printf("Le factoriel de %d est : %d\n", nbre, factorial);
 
     return 0;
 }

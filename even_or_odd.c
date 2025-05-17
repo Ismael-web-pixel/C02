@@ -2,15 +2,15 @@
 
 int main()
 {
-    int nombre;
+    int a;
 
-    scanf("%d", &nombre);
+    scanf("%d", &a);
 
-    if (nombre % 2 == 0)
-        printf("%d est pair\n", nombre);
+    if (a % 2 == 0)
+        printf("est pair\n");
     else
 
-        printf("%d est impair\n", nombre);
+        printf("est impair\n");
 
     return 0;
 }

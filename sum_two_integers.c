@@ -4,14 +4,11 @@ int main() {
 
     int a, b, c;
 
-    printf("le premier entier");
-        scanf("%d", &a);
-
-    printf("le deuxieme enteir");
-        scanf("%d", &b);
+    
+    scanf("%d %d", &a, &b);
 
     c = a + b;
-    printf("la somme des deux entiers \n");
+    printf("La somme est : %d\n",c);
 
 
     return 0;
